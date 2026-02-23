@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Star Organic Farm</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="farmm-logo.png" alt="Star Organic Farm Logo">
+                <span class="brand-text">Star Organic Farm</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gellery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="query.html">Query</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-3" role="search">
+                    <input class="form-control search-input" type="search" placeholder="Search products..." aria-label="Search">
+                    <button class="btn btn-search" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Banner Section with MP4 Video -->
+    <section id="grains" class="product-banner">
+        <!-- Background Video (MP4) -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="grain-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <!-- Fallback Background Image -->
+        <div class="product-banner-fallback"></div>
+        
+        <!-- Overlay for better text readability -->
+        <div class="product-banner-overlay"></div>
+        
+        <!-- Hero Content -->
+        <div class="product-banner-content">
+            <div class="product-banner-text-wrapper">
+                <h1 class="product-banner-title">Organic Grains & Cereals</h1>
+                <p class="product-banner-subtitle">Star Organic Farm delivers premium organic products and spices, bringing the true taste of nature to you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="product-grid" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">OUR COLLECTION</span>
+                <h2 class="section-title">Grains & Cereals Categories</h2>
+                <p class="section-subtitle">We offer over 200 premium organic products across diverse categories, all certified and processed with the highest quality standards.</p>
+            </div>
+
+            <!-- Grains Section Banner -->
+            <!-- <div class="grains-banner"> -->
+                <!-- <h2 class="grains-h1">Premium Selection of Organic Grains</h2> -->
+            <!-- </div> -->
+
+            <!-- Product Cards Grid -->
+            <div class="grains-cards">
+                <!-- Wheat -->
+                <div class="grain-card">
+                    <div class="grain-image"></div>
+                    <div class="grain-content">
+                        <a href="#">
+                            <h4 class="grain-title">Wheat</h4>
+                        </a>
+                        <p class="grain-p">
+                            High in fiber, improves digestion, provides energy, and supports heart health.
+                        </p>
+                        <a class="grain-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Oats -->
+                <div class="oats-card">
+                    <div class="oats-image"></div>
+                    <div class="oats-content">
+                        <a href="#">
+                            <h4 class="oats-title">Oats</h4>
+                        </a>
+                        <p class="oats-p">
+                            Lowers cholesterol, keeps you full longer, and supports weight management.
+                        </p>
+                        <a class="oats-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Barley -->
+                <div class="barley-card">
+                    <div class="barley-image"></div>
+                    <div class="barley-content">
+                        <a href="#">
+                            <h4 class="barley-title">Barley</h4>
+                        </a>
+                        <p class="barley-p">
+                            Rich in fiber, aids digestion, and helps control blood sugar levels.
+                        </p>
+                        <a class="barley-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Maize (Corn) -->
+                <div class="maiz-card">
+                    <div class="maiz-image"></div>
+                    <div class="maiz-content">
+                        <a href="#">
+                            <h4 class="maiz-title">Maize (Corn)</h4>
+                        </a>
+                        <p class="maiz-p">
+                            Provides energy, supports eye health, and is naturally gluten-free.
+                        </p>
+                        <a class="maiz-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Millets -->
+                <div class="milletsss-card">
+                    <div class="milletsss-image"></div>
+                    <div class="milletsss-content">
+                        <a href="#">
+                            <h4 class="milletsss-title">Millet</h4>
+                        </a>
+                        <p class="milletsss-p">
+                            High in fiber, improves digestion, provides energy, and supports heart health.
+                        </p>
+                        <a class="milletsss-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sorghum -->
+                <div class="sorghum-card">
+                    <div class="sorghum-image"></div>
+                    <div class="sorghum-content">
+                        <a href="#">
+                            <h4 class="sorghum-title">Sorghum (Jowar)</h4>
+                        </a>
+                        <p class="sorghum-p">
+                            Gluten-free grain that supports digestion and weight control.
+                        </p>
+                        <a class="sorghum-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Rye -->
+                <div class="rye-card">
+                    <div class="rye-image"></div>
+                    <div class="rye-content">
+                        <a href="#">
+                            <h4 class="rye-title">Rye</h4>
+                        </a>
+                        <p class="rye-p">
+                            High in fiber, improves gut health, and helps regulate blood sugar.
+                        </p>
+                        <a class="rye-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quinoa -->
+                <div class="quinoa-card">
+                    <div class="quinoa-image"></div>
+                    <div class="quinoa-content">
+                        <a href="#">
+                            <h4 class="quinoa-title">Quinoa</h4>
+                        </a>
+                        <p class="quinoa-p">
+                            Protein-rich grain with all essential amino acids and gluten-free.
+                        </p>
+                        <a class="quinoa-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Buckwheat -->
+                <div class="buckwheat-card">
+                    <div class="buckwheat-image"></div>
+                    <div class="buckwheat-content">
+                        <a href="#">
+                            <h4 class="buckwheat-title">Buckwheat</h4>
+                        </a>
+                        <p class="buckwheat-p">
+                            Supports heart health, controls cholesterol, and is gluten-free.
+                        </p>
+                        <a class="buckwheat-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Amaranth -->
+                <div class="amaranth-card">
+                    <div class="amaranth-image"></div>
+                    <div class="amaranth-content">
+                        <a href="#">
+                            <h4 class="amaranth-title">Amaranth</h4>
+                        </a>
+                        <p class="amaranth-p">
+                            High in protein, iron, and calcium, and strengthens bones.
+                        </p>
+                        <a class="amaranth-action" href="#">
+                            Enquiry
+                            <span aria-hidden="true">&#9993;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Want to Know More About Our Products?</h2>
+            <p>Contact us for wholesale inquiries, detailed product information, or to place your order.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary-cta">
+                    <i class="fas fa-envelope"></i> Send Inquiry
+                </button>
+                <button class="btn btn-secondary-cta">
+                    <i class="fas fa-phone"></i> Call Us
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Star Organic Farm Since 1988</h4>
+                <ul class="footer-list">
+                    <li><i class="fas fa-users"></i> 40,000+ Farmers</li>
+                    <li><i class="fas fa-box"></i> 200+ Products</li>
+                    <li><i class="fas fa-field"></i> 75,000+ acres of Certified Land</li>
+                    <li><i class="fas fa-shipping-fast"></i> Exporting to 50+ Countries</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <div class="contact-info">
+                    <p class="footer-label"><i class="fas fa-phone"></i> Phone</p>
+                    <p><a href="tel:+923214440773">+92-321-4440773</a></p>
+                    <p><a href="tel:+924235695402">+92-42-35695402</a></p>
+                    <p class="footer-label"><i class="fas fa-envelope"></i> Email</p>
+                    <p><a href="mailto:hafsaabdulmuqueet@gmail.com">hafsaabdulmuqueet@gmail.com</a></p>
+                    <p><a href="mailto:hafsashaikh1404@gmail.com">hafsashaikh1404@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Corporate Office</h4>
+                <p class="office-address">
+                    Level 8,<br>
+                    Skyline Commercial Center,<br>
+                    Downtown Business District,<br>
+                    Dubai,<br>
+                    United Arab Emirates
+                </p>
+                <div class="footer-logo">
+                    <img src="farmm-logo.png" alt="Star Organic Farm Logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 1988-2026 Star Organic Farm. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
